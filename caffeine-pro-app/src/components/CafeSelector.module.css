@@ -1,0 +1,150 @@
+
+  .pulse {
+    animation: pulse 0.5s ease-in-out;
+  }
+  
+  @keyframes pulse {
+    0% { 
+      transform: scale(0.9);
+      opacity: 0.8;
+    }
+    100% { transform: scale(1);
+    opacity: 1; }
+  }
+  
+  .cafeCard {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+  }
+
+  /* Responsividade para celulares e tablets */
+@media (max-width: 1024px) {
+  .cafeCard {
+    padding: 15px;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cafeCard {
+    padding: 12px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cafeCard {
+    padding: 10px;
+    margin-top: 5px;
+  }
+}
+
+  .darkCafeCard {
+    background: #2b2b2b;
+    box-shadow: 4px 4px 15px rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+  
+  .cafeCard img {
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .cafeCard img:hover{
+    transform: scale(1.1);
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }
+  .cafeImagem {
+    animation: fadeIn 0.8s ease-out;
+  }
+
+  .label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .select {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background: #c97b4f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .link:hover {
+    background: #a65d3a;
+  }
+
+  .bartenderFala {
+    margin-top: 15px;
+    padding: 10px;
+    background: #f8e0c7;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #6b3e26;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Responsividade para o estilo de fundo */
+@media (max-width: 1024px) {
+  .bartenderFala {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .bartenderFala {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .bartenderFala {
+    font-size: 0.7rem;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+  

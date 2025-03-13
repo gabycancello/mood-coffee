@@ -1,0 +1,171 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+    gap: 20px;
+}
+
+.contentWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+  }
+  
+  /* Responsividade para tablets e celulares */
+  @media (max-width: 1024px) {
+    .contentWrapper {
+      flex-direction: column;
+      align-items: center;
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .contentWrapper {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contentWrapper {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      gap: 15px;
+    }
+  }
+
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.baristaContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.barista {
+    width: 180px;
+    height: auto;
+    animation: fadeIn 1s easeout;
+}
+
+.toggleButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: #6a4f4b;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.toggleButton:hover {
+    background-color: #4b3835;
+}
+
+.imageContainer {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.imageContainer img {
+    width: 400%;
+    max-width: 950px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1s ease-out;
+    transition: all 0.5s ease;
+}
+
+@media (max-width: 1024px) {
+    .imageContainer img {
+      width: 250%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .imageContainer img {
+      width: 150%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .imageContainer img {
+      width: 100%;
+    }
+  }
+
+.light {
+    background-color: #f8f5f2;
+    color: #432818;
+    width: 100vw;
+    height: 100vh;
+    transition: 0.4s;
+    min-height: 100vh;
+}
+
+.dark {
+    background-color: #1e1e1e;
+    color: #f4e7d1;
+    width: 100vw;
+    height: 100vh;
+    transition: 0.4s;
+    min-height: 100vh;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Para garantir que as imagens também sejam afetadas */
+img {
+    transition: all 0.5s ease;
+  }
+  
+  .dark img {
+    filter: brightness(0.8); /* Aplica um filtro para as imagens no modo escuro */
+  }
+  
+  .light img {
+    filter: brightness(1);  /* Imagens no modo claro */
+  }

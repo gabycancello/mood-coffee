@@ -1,0 +1,31 @@
+.background {
+    position: fixed;  /* Mantém fixo no fundo */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; /* Ocupa a tela toda */
+    transition: background-color 0.5s ease-in-out;
+    z-index: -1; /* Coloca atrás dos elementos */
+}
+
+.humorText {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .background {
+        height: 100%; /* Ajusta a altura para telas menores */
+    }
+
+    .humorText {
+        font-size: 1.5rem; /* Reduz o tamanho do texto em telas pequenas */
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .humorText {
+        font-size: 1.2rem; /* Reduz ainda mais o tamanho do texto em telas muito pequenas */
+    }
+}

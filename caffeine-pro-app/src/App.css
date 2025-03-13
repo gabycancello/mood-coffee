@@ -1,0 +1,74 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1024px) {
+  .logo {
+    height: 5em;
+  }
+
+  #root {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    height: 4em;
+  }
+
+  #root {
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    height: 3.5em;
+  }
+
+  #root {
+    padding: 0.5rem;
+  }
+}
+
+/* Small devices (phones) */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+}

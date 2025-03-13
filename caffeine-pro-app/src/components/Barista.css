@@ -1,0 +1,18 @@
+.barista {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  /* Responsividade para telas pequenas */
+@media (max-width: 1024px) {
+  .barista {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .barista {
+    margin-top: 5px;
+  }
+}

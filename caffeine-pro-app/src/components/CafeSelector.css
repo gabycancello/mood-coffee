@@ -1,0 +1,33 @@
+.cafe-selector {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .cafe-selector {
+        margin-top: 15px;
+    }
+
+    select {
+        font-size: 14px; /* Reduz o tamanho da fonte para dispositivos menores */
+        padding: 8px;    /* Ajusta o padding para não sobrecarregar o espaço */
+    }
+}
+
+@media (max-width: 480px) {
+    .cafe-selector {
+        margin-top: 10px;
+    }
+
+    select {
+        font-size: 12px; /* Mais uma redução para smartphones */
+        padding: 6px;    /* Ajusta o padding para um tamanho adequado */
+    }
+}
