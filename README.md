@@ -1,6 +1,7 @@
 # Mood Coffee - Escolha seu humor, descubra seu café
 O café perfeito para o seu estado de espírito.
 <br>
+<br>
 
 ## Sobre o projeto
 
@@ -20,6 +21,7 @@ Criar uma experiência digital que vai além da escolha do café, tornando-a div
 # Tecnologias Utilizadas
 
 <br>
+<br>
 
 *✔ React + Vite:* Framework ágil para desenvolvimento eficiente.
 
@@ -34,7 +36,7 @@ Criar uma experiência digital que vai além da escolha do café, tornando-a div
 <br>
 <br>
 
-## Estrutura do projeto
+# Estrutura do projeto
 
 Organizado de forma modular para garantir manutenção escalável e código limpo.
 
@@ -89,7 +91,8 @@ caffeine-pro-app/
 *Dark Mode/Light Mode →* Modo claro e escuro para diferentes preferências
 
 <br>
-## Como Rodar o Projeto?
+
+# Como Rodar o Projeto?
 
 <br>
 
@@ -119,7 +122,7 @@ caffeine-pro-app/
 <br>
 <br>
 
-## Próximos Passos
+# Próximos Passos
 
 🔹Melhorar as animações do barista para uma experiência ainda mais fluida
 <br>
@@ -130,7 +133,7 @@ caffeine-pro-app/
 🔹Explorar integração com APIs de cafeterias para pedidos personalizados
 <br>
 
-# Desenvolvido por mim, com ❤️ e muito café!
+## Desenvolvido por mim, com ❤️ e muito café!
 
 
 
